@@ -239,3 +239,23 @@ footer {
     color: white;
     padding: 20px;
 }
+
+
+
+/* About Resume Buttons Fix */
+.resume-box {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.resume-box .btn-card,
+.resume-box .btn-card-outline {
+    flex: initial;
+    width: auto;
+    padding: 10px 22px;
+    border-radius: 25px;
+    font-size: 15px;
+    display: inline-block;
+}
